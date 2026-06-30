@@ -3,42 +3,231 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tatum Rudy</title>
+    <title>Tatum Rudy | Finance, Business, and Professional Growth</title>
+    <meta
+      name="description"
+      content="Tatum Rudy is a business-minded professional with interests in finance, strategy, technology, and long-term growth. Connect on LinkedIn."
+    />
+    <meta
+      name="keywords"
+      content="Tatum Rudy, finance professional, business student, professional profile, LinkedIn profile"
+    />
+    <link rel="canonical" href="https://tatumrudy.com/" />
+    <meta property="og:title" content="Tatum Rudy | Finance, Business, and Professional Growth" />
+    <meta
+      property="og:description"
+      content="A concise personal profile highlighting professional interests in finance, business, and growth."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tatumrudy.com/" />
+    <meta property="og:image" content="https://tatumrudy.com/images/Tatum%20Rudy%20photo%201.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tatum Rudy | Finance, Business, and Professional Growth" />
+    <meta
+      name="twitter:description"
+      content="A concise personal profile highlighting professional interests in finance, business, and growth."
+    />
+    <meta name="twitter:image" content="https://tatumrudy.com/images/Tatum%20Rudy%20photo%201.jpg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tatum Rudy",
+        "url": "https://tatumrudy.com/",
+        "sameAs": ["https://www.linkedin.com/in/tatum-rudy"],
+        "jobTitle": "Business-minded professional",
+        "description": "Professional focused on finance, business strategy, and digital growth."
+      }
+    </script>
     <style>
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background: #111827;
-        color: #f9fafb;
-        display: grid;
-        place-items: center;
-        min-height: 100vh;
+      :root {
+        color-scheme: light;
+        --bg: #0f172a;
+        --panel: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #2563eb;
+        --accent-dark: #1d4ed8;
       }
 
-      .container {
-        text-align: center;
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Inter", "Segoe UI", Arial, sans-serif;
+        line-height: 1.6;
+        background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+        color: var(--text);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .page {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: 2rem;
+        align-items: center;
+        background: var(--panel);
+        border-radius: 24px;
+        box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
         padding: 2rem;
       }
 
-      h1 {
-        font-size: 2.5rem;
-        margin: 0 0 0.5rem;
+      .hero img {
+        width: 100%;
+        max-width: 240px;
+        border-radius: 50%;
+        object-fit: cover;
+        aspect-ratio: 1;
+        border: 4px solid #dbeafe;
       }
 
-      p {
-        font-size: 1.25rem;
-        margin: 0;
-        color: #d1d5db;
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--accent);
+        margin-bottom: 0.4rem;
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 0.6rem;
+        line-height: 1.2;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 2.8rem);
+      }
+
+      h2 {
+        font-size: 1.35rem;
+        margin-top: 1.5rem;
+      }
+
+      .lead {
+        font-size: 1.05rem;
+        color: var(--muted);
+        max-width: 620px;
+      }
+
+      .actions {
+        margin-top: 1.2rem;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 0.8rem 1.1rem;
+        border-radius: 999px;
+        background: var(--accent);
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.2s ease;
+      }
+
+      .button:hover {
+        background: var(--accent-dark);
+      }
+
+      main {
+        margin-top: 1.4rem;
+        display: grid;
+        gap: 1rem;
+      }
+
+      section {
+        background: var(--panel);
+        border-radius: 20px;
+        padding: 1.4rem 1.5rem;
+        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+      }
+
+      ul {
+        margin: 0.4rem 0 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+      }
+
+      footer {
+        text-align: center;
+        color: var(--muted);
+        padding: 1.5rem 0 0;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 760px) {
+        .hero {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+
+        .hero img {
+          margin: 0 auto;
+        }
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Tatum Rudy</h1>
-      <p>Coming Soon</p>
-      <p>six seven</p>
-      <p>six seven</p>
-      <p>OU #1</p>
+    <div class="page">
+      <header class="hero">
+        <img src="images/Tatum Rudy photo 1.jpg" alt="Portrait of Tatum Rudy" />
+        <div>
+          <p class="eyebrow">Professional Profile</p>
+          <h1>Tatum Rudy</h1>
+          <p class="lead">
+            Business-minded professional exploring the intersection of finance, strategy, and digital growth.
+            This profile offers a concise overview of professional interests and a simple way to connect.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://www.linkedin.com/in/tatum-rudy" target="_blank" rel="noopener noreferrer">
+              Connect on LinkedIn
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <h2>About</h2>
+          <p>
+            Tatum is focused on building a thoughtful career at the intersection of business insight,
+            analytical thinking, and meaningful professional relationships.
+          </p>
+        </section>
+
+        <section>
+          <h2>Areas of Focus</h2>
+          <ul>
+            <li>Finance and business strategy</li>
+            <li>Professional development and networking</li>
+            <li>Technology-driven problem solving</li>
+            <li>Clear communication and collaboration</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Connect</h2>
+          <p>
+            To learn more about recent work, interests, or professional goals, visit LinkedIn and connect directly.
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2026 Tatum Rudy</p>
+      </footer>
     </div>
   </body>
 </html>
